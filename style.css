@@ -1,0 +1,102 @@
+body {
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.form {
+    position: relative;
+    font-weight: 400;
+    background: #fff;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.13);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 380px;
+    padding: 50px 30px; 
+    transform: translate(-50%); 
+    
+}
+.box input[type=text]{
+    margin-top: 10px;
+}
+.information {
+    padding-left: 20px;
+}
+input[type=text],[type=password]{
+    width: 80%;
+    box-sizing: border-box;
+    border-top: none; 
+    border-left: none;
+    border-right: none; 
+    padding: 20px 20px;
+    border-bottom: 1px solid black;
+    background-color:rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    font-size: 13px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+}
+input[placeholder]{
+    color: rgb(15, 12, 13);
+    font-weight: bold;
+    
+}
+input[type=button]{
+    display: inline-block;
+    padding: 10px 25px;
+    width: 55%;
+    margin-top: 10px;   
+    margin-left: 50px;  
+    box-shadow: 1em;
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    border-radius: 25px;
+    border: 3px solid salmon;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+        
+}
+.login {
+    margin-top: 5px;
+    margin-left: 35px;  
+}
+#business {
+    margin-bottom: -9px;    
+    width: 10%;
+    margin-right: 2px;
+}
+textarea:focus, input:focus{
+    outline: none;
+    border-color:#FF416C;
+}
+input[type="button"]:hover{
+        color: white;
+}
+input[type="button"]:active{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+h1:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color : #FF416C;
+}
+.box img:hover{
+    opacity: 0.5;
+}
+#login-logo{
+    width: 45%;
+    margin-left: 27%;
+}
