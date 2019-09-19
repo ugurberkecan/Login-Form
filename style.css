@@ -23,6 +23,7 @@ h1 {
     height: 380px;
     padding: 50px 30px; 
     transform: translate(-50%); 
+    margin-top: 50px;
     
 }
 .box input[type=text]{
